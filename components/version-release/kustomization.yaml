@@ -4,6 +4,9 @@ images:
   - name: xkovhet/ambulance-ufe
     newName: xkovhet/ambulance-ufe
     newTag: 1.0.2 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  - name: xkovhet/ambulance-wl-webapi
+    newName: xkovhet/ambulance-wl-webapi
+    newTag: 1.1.0
 
 replacements:
   - targets:
