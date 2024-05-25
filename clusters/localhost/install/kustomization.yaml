@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
   - ../../../apps/xkovhet-ambulance-ufe
+  - ../../../apps/xkovhet-ambulance-webapi
 
 components:
   - ../../../components/version-developers
+  - https://github.com/Wac-KovHet/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml
